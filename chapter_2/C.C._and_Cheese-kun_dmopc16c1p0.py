@@ -14,8 +14,8 @@
 # w = 1 c <= 50 fairly
 # (w != 3 and (not c > 95) or (w != 1 and (not c <= 50))   very
 
-w = int(input())
-c = int(input())
+w = int(input()) # width
+c = int(input()) # chees
 
 if w == 3 and c >= 95:
    M = 'absolutely'
