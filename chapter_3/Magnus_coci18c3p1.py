@@ -1,11 +1,12 @@
 # coci18c3p1, Magnus
+# в строке надо найти блок со словом HONI и вывести сколько раз это блок попадается в строке
 
-title = 'The Escape'
-total = 0
-for char1 in title:
-    print(char1)
-    for char2 in title:
-        print(char2)
-        total = total + 1
+world = input()
+block = 0
+#'H' + 'O' + 'N' + 'I'
+
+for b in world:
+    if b == 'H' and b == 'O' and b == 'N' and b == 'I'
+       block = block + 1
+       total = len(b)
 print(total)
-
